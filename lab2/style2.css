@@ -1,0 +1,25 @@
+section{
+    border: 1px solid black;
+    padding: 3%;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.verticalMenu a{
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.verticalMenu a:hover{
+    background-color: #ccc;
+}
+
+.verticalMenu a.active{
+    background-color: #04AA6D;
+    color: white;
+}

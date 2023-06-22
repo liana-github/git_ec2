@@ -1,0 +1,52 @@
+
+section{
+    border: 1px solid blue;
+    padding: 10px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_snow_wide {
+    width: 1000px;
+    height: 350px;
+    background-image: url(/asset/img_snow_wide.jpg);
+    position: relative;;
+}
+.fontstyle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.topleft{
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    
+}
+.topright{
+    position: absolute;
+    top: 18px;
+    right: 16px;
+
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 18px;
+    left: 16px;
+
+}
+.bottomright{
+    position: absolute;
+    bottom: 18px;
+    right: 16px;
+
+}

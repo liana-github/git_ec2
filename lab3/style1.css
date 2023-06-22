@@ -1,0 +1,27 @@
+.bg{
+    background-color: #04AA6D;
+}
+
+.navbar {
+    padding: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    
+}
+
+.navbar-toggler:hover{
+    background-color:dimgrey;
+}
+
+@media(max-width:1600px){
+    .ul-bg{
+        background-color: black;
+    }
+}
+
+nav .nav-item a:hover{
+    color: #04AA6D !important
+}
+
+
